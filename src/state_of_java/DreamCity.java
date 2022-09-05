@@ -8,4 +8,7 @@ public class DreamCity {
         this.population = population;
         this.language = language;
     }
+    public void grow(){
+        System.out.println("Population is growing on 5% " + ((population * 0.5) - population));
+    }
 }
