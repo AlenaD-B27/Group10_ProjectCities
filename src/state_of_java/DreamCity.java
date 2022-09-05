@@ -11,4 +11,7 @@ public class DreamCity {
     public void grow(){
         System.out.println("Population is growing on 5% " + ((population * 0.5) - population));
     }
+    public String toString(){
+        return "Population of Dream city: " + population + "\narea: " + area + "\nlanguage" + language;
+    }
 }
