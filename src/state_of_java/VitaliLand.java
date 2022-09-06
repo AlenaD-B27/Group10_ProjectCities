@@ -12,4 +12,8 @@ public class VitaliLand {
     this.language = language;
   }
 
+    public void grow(int population) {
+        System.out.println("Population is growing" + (population*0,5);
+  }
+
 }
