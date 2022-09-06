@@ -13,7 +13,15 @@ public class VitaliLand {
   }
 
     public void grow(int population) {
-        System.out.println("Population is growing" + (population*0,5);
+        System.out.println("Population is growing" + (population * 0.5));
   }
 
+    @Override
+    public String toString() {
+        return "VitaliLand{" +
+                "population=" + population +
+                ", area=" + area +
+                ", language='" + language + '\'' +
+                '}';
+    }
 }
