@@ -14,5 +14,12 @@ public class OlgaTown {
         System.out.println("Population is growing " + (population * 0.5));
     }
 
-
+    @Override
+    public String toString() {
+        return "OlgaTown{" +
+                "population=" + population +
+                ", area=" + area +
+                ", language='" + language + '\'' +
+                '}';
+    }
 }
