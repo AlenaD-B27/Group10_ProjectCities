@@ -10,5 +10,9 @@ public class OlgaTown {
         this.language = language;
     }
 
+    public void grow(){
+        System.out.println("Population is growing " + (population * 0.5));
+    }
+
 
 }
