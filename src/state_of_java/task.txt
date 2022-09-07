@@ -1,0 +1,8 @@
+
+
+
+6. Create variables: int population, double area, String language. Think if your variables should be instance or static. Initialize variables. ==> commit
+7. Create method grow(). When we call the method if should print "Population is growing" and population should go 5% up every time we call this method; ==> commit
+8. Create toString method. Method should return population, area and language. ==> commit
+9. Push all the changes to GitHub.
+10. Create PR from YOUR branch to develop. If you request to pull it to master I will have to reject it, so, please, pay attention :)
