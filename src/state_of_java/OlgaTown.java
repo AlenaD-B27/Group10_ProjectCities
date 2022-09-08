@@ -1,3 +1,5 @@
+package state_of_java;
+
 public class OlgaTown {
 
     int population;
@@ -16,7 +18,7 @@ public class OlgaTown {
 
     @Override
     public String toString() {
-        return "OlgaTown{" +
+        return "state_of_java.OlgaTown{" +
                 "population=" + population +
                 ", area=" + area +
                 ", language='" + language + '\'' +

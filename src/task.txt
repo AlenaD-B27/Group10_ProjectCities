@@ -1,6 +1,9 @@
 
-
-
+1. Accept the invitation;
+2. Clone the project to your InteliJ;
+3. Checkout to origin develop branch, it will create your local develop one;
+4. Create your branch from local develop, name of the branch should be your name. Ex: my branch will be "alena";
+5. Create the class (custom the name, Ex: "AlenaTown", "JamesVille", "CityOfWisdom", anything you want, just do not use the real city name to avoid conflict) in the existing package state_of_java. ==> commit
 6. Create variables: int population, double area, String language. Think if your variables should be instance or static. Initialize variables. ==> commit
 7. Create method grow(). When we call the method if should print "Population is growing" and population should go 5% up every time we call this method; ==> commit
 8. Create toString method. Method should return population, area and language. ==> commit
